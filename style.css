@@ -13,10 +13,7 @@ p {
   transform: translate(-50%, -50%);
 }
 button{
-  border-width: 100px;
-  size: 1000px;
-  border-radius: 140px;
-  color: rgb(28, 136, 100);
+  color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   margin: 0;
   position: absolute;
