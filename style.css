@@ -18,7 +18,7 @@ button{
   border: 1px solid #fff;
   padding: 10px 20px;
   border-radius: 20px;
-  color: rgb(0, 0, 0);
+  color: #42337d;
   cursor: pointer;
   margin-top: 25px;
   transition: .2s;
@@ -34,12 +34,12 @@ button{
   transform: translate(-50%, -50%);
 }
 button:hover{
-  background-color: rgb(255, 255, 255);
+  background-color: #42337d;
   border: rgb(255, 255, 255);
-  color: #000000;
+  color: #ffffff;
   box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
-  font-size: larger;
-  cursor: not-allowed;
+  /*font-size: larger;*/
+  /*cursor: not-allowed;*/
 }
 /*
   color: rgb(0, 0, 0);
