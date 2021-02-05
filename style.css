@@ -32,6 +32,7 @@ button{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  outline: none;
 }
 button:hover{
   background-color: #42337d;
