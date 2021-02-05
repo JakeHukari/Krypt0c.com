@@ -13,6 +13,35 @@ p {
   transform: translate(-50%, -50%);
 }
 button{
+  width: auto;
+  display: table;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 25px;
+  transition: .2s;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: large;
+  margin: 0;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+button:hover{
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255);
+  color: #000000;
+  box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
+  font-size: larger;
+  cursor: not-allowed;
+}
+/*
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   margin: 0;
@@ -21,4 +50,3 @@ button{
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
