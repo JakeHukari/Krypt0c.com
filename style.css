@@ -42,12 +42,3 @@ button:hover{
   /*font-size: larger;*/
   /*cursor: not-allowed;*/
 }
-/*
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
