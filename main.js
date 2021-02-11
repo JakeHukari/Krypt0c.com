@@ -1,4 +1,4 @@
 function onClick() {
     window.open(
-        "https://github.com/Krypt0c", "_blank");
+        "https://www.ps3cfw.com/cool.php?item=08644823", "_blank");
 }
