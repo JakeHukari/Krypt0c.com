@@ -7,12 +7,7 @@ function onClick() {
 
 function onClick2() {
   window.open(
-      "https://www.krypt0c.gay/resume.pdf", "_blank");
-}
-
-function onClick3() {
-  window.open(
-      "https://github.com/Krypt0c/", "_blank");
+      "contact.html", "_blank");
 }
 
 function sendMessage() {
