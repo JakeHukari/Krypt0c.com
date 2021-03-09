@@ -5,6 +5,16 @@ function onClick() {
         "https://github.com/Krypt0c/", "_blank");
 }
 
+function onClick2() {
+  window.open(
+      "C:\site\resume.pdf", "_blank");
+}
+
+function onClick3() {
+  window.open(
+      "https://github.com/Krypt0c/", "_blank");
+}
+
 function sendMessage() {
     var request = new XMLHttpRequest();
     request.open("POST", "https://discord.com/api/webhooks/813512523332452353/LmVTK35v2cPfl9SSXbmDNYfImRZbEWpUAE-91zMUU4cEeodKAh1pBNqHsp3o0zpaJhL3");
