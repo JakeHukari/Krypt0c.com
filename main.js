@@ -2,12 +2,16 @@ window.onload = sendMessage;
 
 function onClick() {
     window.open(
-        "https://github.com/Krypt0c/", "_blank");
+        "about.html", "_blank");
 }
 
 function onClick2() {
   window.open(
       "contact.html", "_blank");
+}
+function onClick2() {
+  window.open(
+      "hire.html", "_blank");
 }
 
 function sendMessage() {
