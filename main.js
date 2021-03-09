@@ -7,7 +7,7 @@ function onClick() {
 
 function onClick2() {
   window.open(
-      "C:\site\resume.pdf", "_blank");
+      "https://www.krypt0c.gay/resume.pdf", "_blank");
 }
 
 function onClick3() {
