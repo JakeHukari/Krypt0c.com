@@ -21,7 +21,7 @@ function onClick() {
     var params = {
       username: "Site Bot",
       avatar_url: "",
-      content: "Somone has visited your contact page"
+      content: "Somone has visited your about page"
     }
 
     request.send(JSON.stringify(params));
