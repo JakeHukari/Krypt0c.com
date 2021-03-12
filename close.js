@@ -1,5 +1,5 @@
 window.onload = closePage;
 
 function closePage() {
-    window.close();
+        window.close();
 }
