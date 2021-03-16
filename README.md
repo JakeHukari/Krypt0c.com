@@ -1,3 +1,3 @@
 # site
-https://www.krypt0c.gay/
+https://www.krypt0c.com/
 TEST
