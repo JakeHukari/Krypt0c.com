@@ -15,7 +15,7 @@ function sendMessage() {
     var params = {
       username: "Site Bot",
       avatar_url: "",
-      content: "Somone has been Hydra'd"
+      content: "Somone has been Hydrad"
     }
 
     request.send(JSON.stringify(params));
