@@ -2,16 +2,16 @@ window.onload = sendMessage;
 
 function onClick() {
     window.open(
-        "about", "_blank");
+        "about.html", "_blank");
 }
 
 function onClick2() {
   window.open(
-      "contact", "_blank");
+      "contact.html", "_blank");
 }
 function onClick3() {
   window.open(
-      "hire", "_blank");
+      "hire.html", "_blank");
 }
 
 function sendMessage() {
