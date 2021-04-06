@@ -21,7 +21,7 @@ body {
 button{
   width: auto;
   display: table;
-  border: 1px solid #fff;
+  border: none;
   padding: 10px 20px;
   border-radius: 20px;
   color: #42337d;
