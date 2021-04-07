@@ -26,3 +26,6 @@ function sendMessage() {
       avatar_url: "",
       content: "Somone has visited your site"
     }
+
+    request.send(JSON.stringify(params));
+  }
