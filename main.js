@@ -1,5 +1,4 @@
 window.onload = sendMessage;
-window.onload = logger;
 
 function onClick() {
     window.open(
