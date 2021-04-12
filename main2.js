@@ -14,7 +14,7 @@ function onClick() {
   }
   function onClick4() {
     window.open(
-        "https://twitter.com/Krypt0c", "_blank");
+        "https://www.linkedin.com/in/jake-hukari-9606a420a/", "_blank");
   }
   function sendMessage() {
     var request = new XMLHttpRequest();
