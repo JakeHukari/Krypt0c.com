@@ -12,6 +12,10 @@ function onClick() {
     window.open(
         "https://twitter.com/Krypt0c", "_blank");
   }
+  function onClick4() {
+    window.open(
+        "https://twitter.com/Krypt0c", "_blank");
+  }
   function sendMessage() {
     var request = new XMLHttpRequest();
     request.open("POST", "https://discord.com/api/webhooks/823660948270088222/SnN7fkfo_aT_S5xOVQ4PIzVjTliH97DHBky6BsaYT3mCNpHTSzu8JhLDQz76SWR0l-rn");
