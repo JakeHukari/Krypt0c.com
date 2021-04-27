@@ -16,6 +16,7 @@ function onClick() {
     window.open(
         "https://www.linkedin.com/in/jake-hukari-9606a420a/", "_blank");
   }
+  /*
   function sendMessage() {
     var request = new XMLHttpRequest();
     request.open("POST", "https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ");
@@ -30,3 +31,4 @@ function onClick() {
 
     request.send(JSON.stringify(params));
   }
+  */
