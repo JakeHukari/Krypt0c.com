@@ -1,16 +1,13 @@
 function onClick() {
-    window.open(
       window.location.replace("about.html")}
 
-function onClick2() {
-  window.open(
+function onClick2() 
     window.location.replace("contact.html")}
+
 function onClick3() {
-  window.open(
     window.location.replace("hire.html")
 }
 function Home() {
-  window.open(
     window.location.replace("index.html")
 }
 /*
