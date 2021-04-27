@@ -11,8 +11,7 @@ function onClick() {
         "https://twitter.com/Krypt0c", "_blank");
   }
   function onClick4() {
-    window.open(
-        "https://www.linkedin.com/in/jake-hukari-9606a420a/", "_blank");
+    window.open("https://www.linkedin.com/in/jake-hukari-9606a420a/", "_blank");
   }
   function Home() {
     window.open(
