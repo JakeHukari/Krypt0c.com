@@ -1,5 +1,3 @@
-window.onload = sendMessage;
-
 function onClick() {
     window.open(
       window.location.replace("about.html")}
