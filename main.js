@@ -11,11 +11,11 @@ function onClick2() {
 }
 function onClick3() {
   window.open(
-      "hire.html", "_blank");
+    window.location.replace("hire.html")
 }
 function Home() {
   window.open(
-      "index.html", "_blank");
+    window.location.replace("index.html")
 }
 function sendMessage() {
   var request = new XMLHttpRequest();
