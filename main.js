@@ -15,6 +15,7 @@ function Home() {
   window.open(
     window.location.replace("index.html")
 }
+/*
 function sendMessage() {
   var request = new XMLHttpRequest();
   request.open("POST", "https://discord.com/api/webhooks/835027613834805268/gFEgtAJkiIb-rdpoUFVPUL4Y3-oZSLp4gI262SHUI6_1gSLryfbpxAsqG-Fn0rSlMAhQ");
@@ -29,3 +30,4 @@ function sendMessage() {
 
   request.send(JSON.stringify(params));
 }
+*/
