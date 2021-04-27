@@ -12,6 +12,10 @@ function onClick() {
     window.open(
         "https://twitter.com/Krypt0c", "_blank");
   }
+  function Home() {
+    window.open(
+      window.location.replace("index.html")
+  }
   /*
   function sendMessage() {
     var request = new XMLHttpRequest();
