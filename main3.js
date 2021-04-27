@@ -1,8 +1,7 @@
 window.onload = sendMessage;
 
 function onClick() {
-    window.open(
-        "mailto:hukarijake@gmail.com", "_blank");
+    window.open("mailto:hukarijake@gmail.com", "_blank");
   }
   function onClick2() {
     window.open("https://github.com/Krypt0c", "_blank");
