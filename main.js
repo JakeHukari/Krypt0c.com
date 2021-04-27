@@ -1,14 +1,14 @@
 function onClick() {
-      window.location.replace("about.html")}
+      window.location.replace("krypt0c.com/about")}
 
 function onClick2() 
-    window.location.replace("contact.html")}
+    window.location.replace("krypt0c.com/contact")}
 
 function onClick3() {
-    window.location.replace("hire.html")
+    window.location.replace("krypt0c.com/hire")
 }
 function Home() {
-    window.location.replace("index.html")
+    window.location.replace("krypt0c.com")
 }
 /*
 function sendMessage() {
