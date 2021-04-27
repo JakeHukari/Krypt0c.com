@@ -2,13 +2,11 @@ window.onload = sendMessage;
 
 function onClick() {
     window.open(
-        "about.html", "_blank");
-}
+      window.location.replace("about.html")}
 
 function onClick2() {
   window.open(
-      "contact.html", "_blank");
-}
+    window.location.replace("contact.html")}
 function onClick3() {
   window.open(
     window.location.replace("hire.html")
