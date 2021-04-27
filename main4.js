@@ -7,8 +7,7 @@ function onClick() {
     window.open("https://github.com/Krypt0c", "_blank");
   }
   function onClick3() {
-    window.open(
-        "https://twitter.com/Krypt0c", "_blank");
+    window.open("https://twitter.com/Krypt0c", "_blank");
   }
   function Home() {
     window.open(
