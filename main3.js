@@ -1,5 +1,3 @@
-window.onload = sendMessage;
-
 function onClick() {
     window.open("mailto:hukarijake@gmail.com", "_blank");
   }
