@@ -5,7 +5,7 @@ function onClick() {
     window.location.replace("contact.html", "_blank");
   }
   function onClick3() {
-    window.location.replace("hire", "_blank");
+    window.location.replace("hire.html", "_blank");
   }
   function Home() {
     window.location.replace("index.html")
