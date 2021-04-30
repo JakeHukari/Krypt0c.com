@@ -7,7 +7,6 @@ body {
   display: flex;
 }  
   p {
-  text-align: center;
   font-family: "Lucida Console", "Courier New", monospace;
   color: aliceblue;
   font-size: larger;
