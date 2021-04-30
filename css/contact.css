@@ -59,7 +59,7 @@ body {
     margin: 10px 0 0 10px;
     white-space: nowrap;
     overflow: hidden;
-    width: 7em;
+    width: 6em;
     animation: type 1s steps(100, end); 
   }
   @keyframes type{ 
