@@ -19,6 +19,7 @@ body {
   transform: translate(-50%, -50%);
 }
 button{
+  font-family: "Courier";
   width: auto;
   display: table;
   border: 1px solid #fff;
