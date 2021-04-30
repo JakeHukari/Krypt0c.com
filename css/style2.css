@@ -43,3 +43,16 @@ button:hover{
   color: pink;
   box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
 }
+.hello{
+  color: Pink; 
+  font-family: "Courier";
+  font-size: 35px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 7em;
+  animation: type 1s steps(100, end); 
+}
+@keyframes type{ 
+  from { width: 0; } 
+} 
