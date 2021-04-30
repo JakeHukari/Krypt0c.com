@@ -8,7 +8,7 @@ body {
 }  
   p {
   font-family: "Courier";
-  color: aliceblue;
+  color: pink;
   font-size: larger;
   font-weight: bolder;
   margin: 0;
@@ -22,7 +22,7 @@ button{
   font-family: "Courier";
   width: auto;
   display: table;
-  border: 1px solid #fff;
+  border: 1px solid pink;
   padding: 10px 20px;
   border-radius: 20px;
   color: #42337d;
@@ -39,7 +39,7 @@ button{
 }
 button:hover{
   background-color: #000c18;
-  border: rgb(255, 255, 255);
-  color: #ffffff;
+  border: pink;
+  color: pink;
   box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
 }
