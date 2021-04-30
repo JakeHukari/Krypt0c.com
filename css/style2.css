@@ -7,7 +7,7 @@ body {
   display: flex;
 }  
   p {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier";
   color: aliceblue;
   font-size: larger;
   font-weight: bolder;

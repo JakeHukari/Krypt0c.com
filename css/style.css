@@ -7,7 +7,7 @@ body {
   display: flex;
 }  
   p {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier";
   color: aliceblue;
   font-size: larger;
   font-weight: bolder;
@@ -43,7 +43,7 @@ button:hover{
   border: 2px solid #fff
 }
 a {
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: "Courier";
   color: aliceblue;
   font-weight: bolder;
   margin: 0;
