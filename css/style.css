@@ -25,6 +25,7 @@ button{
   padding: 10px 20px;
   border-radius: 20px;
   color: #42337d;
+  background-color: pink;
   cursor: default;
   margin-top: 25px;
   transition: .2s;
@@ -38,9 +39,9 @@ button{
 }
 button:hover{
   background-color: #000c18;
-  color: #ffffff;
+  color: pink;
   box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
-  border: 2px solid #fff
+  border: 2px solid pink;
 }
 a {
   font-family: "Courier";
