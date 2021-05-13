@@ -1,1 +1,16 @@
-
+canvas{
+    background:#ff00ea;
+  }
+  body{
+    margin:0;
+  }
+  div{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    font-family:Arial;
+    font-size:xx-large;
+  }
+  a{
+    color:rgb(0,0,90);
+  }
