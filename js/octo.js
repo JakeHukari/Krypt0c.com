@@ -20,15 +20,7 @@ function main(){
 	
 	
 	MONSTERS.push(new Monster({
-		x:CANVAS.width*0.3,
-		y:CANVAS.height*0.4
-	}))
-	MONSTERS.push(new Monster({
 		x:CANVAS.width*0.5,
-		y:CANVAS.height*0.4
-	}))
-	MONSTERS.push(new Monster({
-		x:CANVAS.width*0.7,
 		y:CANVAS.height*0.4
 	}))
 	
@@ -82,11 +74,12 @@ class Monster{
 		this.particles=[];
 		this.segments=[];
 		this.rigidity=30;
-		
+		// Leg thickness
 		let seg=10;
-		let legs=8;
+		// Leg ammount
+		let legs=200;
 		
-		let step=30; //dist between particles
+		let step=300; //dist between particles
 		
 		this.particles.push(
 			new Particle(this.loc,true,true)
