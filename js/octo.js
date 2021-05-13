@@ -18,9 +18,9 @@ function main(){
 	CANVAS.addEventListener("mousemove",onMouseMove);
 	CANVAS.addEventListener("mouseup",onMouseUp);
 	
-	
+	// Main Monst
 	MONSTERS.push(new Monster({
-		x:CANVAS.width*0.5,
+		x:CANVAS.width*.1,
 		y:CANVAS.height*0.4
 	}))
 	
@@ -77,9 +77,9 @@ class Monster{
 		// Leg thickness
 		let seg=10;
 		// Leg ammount
-		let legs=200;
+		let legs=8;
 		
-		let step=300; //dist between particles
+		let step=30; //dist between particles
 		
 		this.particles.push(
 			new Particle(this.loc,true,true)
