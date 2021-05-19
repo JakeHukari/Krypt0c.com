@@ -7,3 +7,12 @@ p {
     transform: translate(-50%, -50%);
     font-size: 100px;
 }
+#content-desktop {display:contents;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
