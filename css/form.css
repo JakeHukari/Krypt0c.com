@@ -8,12 +8,12 @@ font-family:'Ubuntu',sans-serif
 div#form_sample{
 text-align:center;
 border:1px solid #ccc;
-width:300px;
+width:auto;
 padding:0 50px 15px;
 margin-top:20px;
 box-shadow:0 0 15px;
 border-radius:6px;
-float:left;
+float:none;
 }
 #main h1{
 margin-top:40px
