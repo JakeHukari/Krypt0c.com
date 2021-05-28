@@ -5,7 +5,7 @@ createform.setAttribute("method", "post"); // Setting Method Attribute on Form
 x.appendChild(createform);
 
 var heading = document.createElement('h2'); // Form Heading
-heading.innerHTML = "Contact Me ";
+heading.innerHTML = "Contact Form ";
 createform.appendChild(heading);
 
 var line = document.createElement('hr'); // Giving Horizontal Row After Heading
