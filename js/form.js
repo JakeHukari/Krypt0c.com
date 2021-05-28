@@ -30,7 +30,7 @@ var emaillabel = document.createElement('label'); // Label for Email
 emaillabel.innerHTML = "Your Email : ";
 createform.appendChild(emaillabel);
 
-var emailelement = document.createElement('input'); // Input for Email
+var emailelement = document.createElement('input'); // Input Field for Email
 emailelement.setAttribute("type", "text");
 emailelement.setAttribute("name", "demail");
 createform.appendChild(emailelement);
