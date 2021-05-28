@@ -26,11 +26,11 @@ createform.appendChild(inputelement);
 var linebreak = document.createElement('br');
 createform.appendChild(linebreak);
 
-var emaillabel = document.createElement('label'); // Label For Email
+var emaillabel = document.createElement('label'); // Label for Email
 emaillabel.innerHTML = "Your Email : ";
 createform.appendChild(emaillabel);
 
-var emailelement = document.createElement('input'); // Create Input Field for E-mail
+var emailelement = document.createElement('input'); // Input for Email
 emailelement.setAttribute("type", "text");
 emailelement.setAttribute("name", "demail");
 createform.appendChild(emailelement);
