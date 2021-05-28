@@ -58,7 +58,7 @@ createform.appendChild(texareaelement);
 var messagebreak = document.createElement('br');
 createform.appendChild(messagebreak);
 
-var submitelement = document.createElement('input'); // Append Submit Button
+var submitelement = document.createElement('input'); // Submit Button
 submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
