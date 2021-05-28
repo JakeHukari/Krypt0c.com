@@ -51,7 +51,7 @@ var messagelabel = document.createElement('label'); // Message Field
 messagelabel.innerHTML = "Your Message : ";
 createform.appendChild(messagelabel);
 
-var texareaelement = document.createElement('textarea');
+var texareaelement = document.createElement('textarea'); // Input Field for Message
 texareaelement.setAttribute("name", "dmessage");
 createform.appendChild(texareaelement);
 
