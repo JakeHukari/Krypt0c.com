@@ -47,7 +47,7 @@ createform.appendChild(emailelement);
 var emailbreak = document.createElement('br');
 createform.appendChild(emailbreak);
 
-var messagelabel = document.createElement('label'); // Append Textarea
+var messagelabel = document.createElement('label'); // Message Field
 messagelabel.innerHTML = "Your Message : ";
 createform.appendChild(messagelabel);
 
