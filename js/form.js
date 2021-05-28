@@ -4,7 +4,7 @@ createform.setAttribute("action", ""); // Setting Action Attribute on Form
 createform.setAttribute("method", "post"); // Setting Method Attribute on Form
 x.appendChild(createform);
 
-var heading = document.createElement('h2'); // Heading of Form
+var heading = document.createElement('h2'); // Form Heading
 heading.innerHTML = "Contact Form ";
 createform.appendChild(heading);
 
