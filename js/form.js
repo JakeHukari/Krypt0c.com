@@ -14,11 +14,11 @@ createform.appendChild(line);
 var linebreak = document.createElement('br');
 createform.appendChild(linebreak);
 
-var namelabel = document.createElement('label'); // Create Label for Name Field
+var namelabel = document.createElement('label'); // Label for Name
 namelabel.innerHTML = "Your Name : "; // Set Field Labels
 createform.appendChild(namelabel);
 
-var inputelement = document.createElement('input'); // Create Input Field for Name
+var inputelement = document.createElement('input'); // Name Input Field
 inputelement.setAttribute("type", "text");
 inputelement.setAttribute("name", "dname");
 createform.appendChild(inputelement);
