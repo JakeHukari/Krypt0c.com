@@ -36,7 +36,7 @@ emailelement.setAttribute("name", "demail");
 createform.appendChild(emailelement);
 
 var emaillabel = document.createElement('label'); // Create Label for Test Field
-emaillabel.innerHTML = "Test Sample : ";
+emaillabel.innerHTML = "Test Sample: ";
 createform.appendChild(emaillabel);
 
 var emailelement = document.createElement('input'); // Create Input Field for Test
