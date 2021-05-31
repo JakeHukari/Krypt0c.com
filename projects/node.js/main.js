@@ -5,5 +5,5 @@ http.createServer(function (req, res) {
   res.end('Hello World!');
 }).listen(8091);
 
-console.log('This example is different!');
-console.log('The result is displayed in the Command Line Interface');
+console.log('Server Running...');
+console.log('Listening on'+ (listen) );
