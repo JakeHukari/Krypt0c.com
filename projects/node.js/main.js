@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+var mysql = require('mysql');
 
 http.createServer(function (req, res) {
   fs.readFile('index.html', function(err, data) {
