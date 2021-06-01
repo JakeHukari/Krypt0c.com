@@ -12,5 +12,5 @@ console.log('Server is running')
 
 fs.appendFile('testfile.txt', 'Test', function (err) {
   if (err) throw err;
-  console.log('Saved');
+  console.log('File is saved');
 });
