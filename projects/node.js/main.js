@@ -1,5 +1,7 @@
 var http = require('http');
 var fs = require('fs');
+var rs = fs.createReadStream('./testfile.txt');
+
 http.createServer(function (req, res) {
   fs.readFile('index.html', function(err, data) {
     res.writeHead(200, {'Content-Type': 'text/html'});
