@@ -1,10 +1,5 @@
 var http = require('http');
 var fs = require('fs');
-var rs = fs.createReadStream('./testfile.txt');
-
-rs.on('open', function () {
-  console.log('The file has been opened');
-});
 
 http.createServer(function (req, res) {
   fs.readFile('index.html', function(err, data) {
