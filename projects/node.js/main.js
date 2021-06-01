@@ -11,3 +11,14 @@ http.createServer(function (req, res) {
 }).listen(8080);
 
 console.log('Server is running')
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "Username",
+  password: "Password"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("MySql is connected");
+});
