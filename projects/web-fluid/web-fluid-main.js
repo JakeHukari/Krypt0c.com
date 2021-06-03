@@ -3,8 +3,7 @@ if (isMobile()) {
         promoPopup.style.display = 'table';
     }, 20000);
 }
-// Simulation section
-
+//Simulation
 const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
