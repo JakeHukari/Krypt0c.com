@@ -212,8 +212,8 @@ function startGUI () {
     gui.add(config, 'DENSITY_DISSIPATION', 0, 4.0).name('Density Dissapation');
     gui.add(config, 'VELOCITY_DISSIPATION', 0, 4.0).name('Velocity Dissapation');
     gui.add(config, 'PRESSURE', 0.0, 1.0).name('Pressure');
-    gui.add(config, 'CURL', 0, 50).name('vorticity').step(1);
-    gui.add(config, 'SPLAT_RADIUS', 0.01, 1.0).name('splat radius');
+    gui.add(config, 'CURL', 0, 50).name('Vorticity').step(1);
+    gui.add(config, 'SPLAT_RADIUS', 0.01, 1.0).name('Splat radius');
     gui.add(config, 'SHADING').name('Shading').onFinishChange(updateKeywords);
     gui.add(config, 'COLORFUL').name('Colorful');
     gui.add(config, 'PAUSED').name('Pause').listen();
