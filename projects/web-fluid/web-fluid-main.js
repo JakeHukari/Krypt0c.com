@@ -214,9 +214,9 @@ function startGUI () {
     gui.add(config, 'PRESSURE', 0.0, 1.0).name('Pressure');
     gui.add(config, 'CURL', 0, 50).name('vorticity').step(1);
     gui.add(config, 'SPLAT_RADIUS', 0.01, 1.0).name('splat radius');
-    gui.add(config, 'SHADING').name('shading').onFinishChange(updateKeywords);
-    gui.add(config, 'COLORFUL').name('colorful');
-    gui.add(config, 'PAUSED').name('paused').listen();
+    gui.add(config, 'SHADING').name('Shading').onFinishChange(updateKeywords);
+    gui.add(config, 'COLORFUL').name('Colorful');
+    gui.add(config, 'PAUSED').name('Pause').listen();
 
     gui.add({ fun: () => {
         splatStack.push(parseInt(Math.random() * 20) + 5);
