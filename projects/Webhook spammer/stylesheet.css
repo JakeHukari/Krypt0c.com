@@ -1,3 +1,6 @@
+body {
+    background-color: #000c18;
+}
 
 * {
     text-align: center;
@@ -34,7 +37,7 @@ a, a:visited {
     background-color: #000000;
     width: 75%;
     padding: 20px;
-    border: 2px solid #838383c9;
+    border: 2px solid #ffffffc9;
 }
 
 #btn {
