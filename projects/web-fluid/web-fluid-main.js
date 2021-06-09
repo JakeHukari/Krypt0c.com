@@ -190,10 +190,6 @@ function startGUI () {
         gui.close();
 }
 
-function isMobile () {
-    return /Mobi|Android/i.test(navigator.userAgent);
-}
-
 function captureScreenshot () {
     let res = getResolution(config.CAPTURE_RESOLUTION);
     let target = createFBO(res.width, res.height, ext.formatRGBA.internalFormat, ext.formatRGBA.format, ext.halfFloatTexType, gl.NEAREST);
