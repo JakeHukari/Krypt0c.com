@@ -65,6 +65,8 @@ body {
     #content-mobile {display: block;}
     
   }
-  a {
 
+  footer {
+    top: 100px;
+    left: 500px;
   }
