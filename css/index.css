@@ -43,9 +43,6 @@ body {
     box-shadow: 0 5px 36px 0px rgba(0, 0, 0, .25);
     border: 2px solid pink;
   }
-  a {
-
-  }
   .hello{
     color: Pink; 
     font-family: "Courier";
@@ -59,12 +56,15 @@ body {
   @keyframes type{ 
     from { width: 0; } 
   }
-#content-desktop {display:contents;}
-#content-mobile {display: none;}
+  #content-desktop {display:contents;}
+  #content-mobile {display: none;}
+  
+  @media screen and (max-width: 768px) {
+    
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+    
+  }
+  a {
 
-@media screen and (max-width: 768px) {
-
-#content-desktop {display: none;}
-#content-mobile {display: block;}
-
-}
+  }
