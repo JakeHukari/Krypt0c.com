@@ -44,13 +44,7 @@ body {
     border: 2px solid pink;
   }
   a {
-    font-family: "Courier";
-    color: pink;
-    font-weight: bolder;
-    margin: 0;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-decoration: none;
+
   }
   .hello{
     color: Pink; 
