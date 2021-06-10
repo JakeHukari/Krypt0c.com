@@ -81,8 +81,8 @@ body {
   border: none;
   padding: 10px 20px;
   border-radius: 20px;
-  color: #42337d;
-  background-color: pink;
+  color: #ffffff;
+  background-color: rgb(255, 255, 255);
   cursor: default;
   margin-top: 25px;
   transition: .2s;
