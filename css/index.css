@@ -74,23 +74,3 @@ body {
 #content-mobile {display: block;}
 
 }
-
-.directory{
-  width: auto;
-  display: table;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  color: #ffffff;
-  background-color: rgb(255, 255, 255);
-  cursor: default;
-  margin-top: 25px;
-  transition: .2s;
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: large;
-   margin: 0 10px;
-   display:inline-block;
-  outline: none;
-}
