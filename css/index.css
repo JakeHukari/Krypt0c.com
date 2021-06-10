@@ -76,5 +76,21 @@ body {
 }
 
 .directory{
-
+  width: auto;
+  display: table;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #42337d;
+  background-color: pink;
+  cursor: default;
+  margin-top: 25px;
+  transition: .2s;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: large;
+   margin: 0 10px;
+   display:inline-block;
+  outline: none;
 }
