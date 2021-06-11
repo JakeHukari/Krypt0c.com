@@ -79,4 +79,5 @@ a {
 
 a:hover {
   color: white;
+  cursor: default;
 }
