@@ -76,3 +76,7 @@ a {
   color: #000c18;
   text-decoration: none;
 }
+
+a:hover {
+  color: white;
+}
