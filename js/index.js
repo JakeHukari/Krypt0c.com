@@ -10,3 +10,7 @@ function onClick() {
   function Home() {
     window.location.replace("index.html")
   }
+
+  if (isMobile()) {
+    alert("test")
+  }
