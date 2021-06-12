@@ -1,5 +1,4 @@
 body {
-    background-color: #000c18;
 }
 
 li {
@@ -8,11 +7,11 @@ li {
 }
 
 ul {
-    color: pink;
+    color: #000c18;
     text-decoration: none;
 }
 
 a {
-    color: pink;
+    color: #000c18;
     text-decoration: none;
 }
