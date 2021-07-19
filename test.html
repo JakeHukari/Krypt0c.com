@@ -1,23 +1,5 @@
 <script>
-let keysPressed = {};
-
 document.addEventListener('keydown', (event) => {
-   keysPressed[event.key] = true;
-});
-
-document.addEventListener('keyup', (event) => {
-    delete this.keysPressed[event.key];
- });
-
- document.addEventListener('keydown', (event) => {
-   keysPressed[event.key] = true;
-
-   if (keysPressed['Control'] && event.key == 'a') {
-       alert(event.key);
-   }
-});
-
-document.addEventListener('keyup', (event) => {
-   delete keysPressed[event.key];
+    // do something
 });
 </script>
